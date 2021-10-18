@@ -1,15 +1,14 @@
 {
-    "name": "sanpi/assetic",
+    "name": "apelaez-link/assetic",
     "description": "Asset Management for PHP",
     "keywords": [ "assets", "compression", "minification" ],
-    "homepage": "https://github.com/sanpi/assetic",
+    "homepage": "https://github.com/apelaez-link/assetic",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kris Wallsmith",
-            "email": "kris.wallsmith@gmail.com",
-            "homepage": "http://kriswallsmith.net/"
+            "name": "Adrián Peláez",
+            "email": "apelaez@smartcity.link"
         }
     ],
     "require": {

@@ -1,0 +1,57 @@
+{
+    "name": "sanpi/assetic",
+    "description": "Asset Management for PHP",
+    "keywords": [ "assets", "compression", "minification" ],
+    "homepage": "https://github.com/sanpi/assetic",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kris Wallsmith",
+            "email": "kris.wallsmith@gmail.com",
+            "homepage": "http://kriswallsmith.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
+        "symfony/process": "^2.7|^3.0|^4.0"
+    },
+    "conflict": {
+        "twig/twig": "<1.34|>=2,<2.4"
+    },
+    "replace": {
+        "kriswallsmith/assetic": "self.version"
+    },
+    "require-dev": {
+        "leafo/lessphp": "^0.5",
+        "leafo/scssphp": "dev-master",
+        "leafo/scssphp-compass": "dev-master",
+        "linkorb/jsmin-php": "^1.0",
+        "meenie/javascript-packer": "^1.1",
+        "mrclay/minify": "^3.0",
+        "natxet/cssmin": "^3.0",
+        "nitra/php-min": "^0.0",
+        "patchwork/jsqueeze": "^2.0",
+        "phpunit/phpunit": "^7.0",
+        "psr/log": "^1.0",
+        "ptachoire/cssembed": "^1.0",
+        "symfony/phpunit-bridge": "^4.0",
+        "twig/twig": "^2.0",
+        "yfix/packager": "dev-master#d358c2a"
+    },
+    "suggest": {
+        "twig/twig": "Assetic provides the integration with the Twig templating engine",
+        "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+        "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+        "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+        "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+        "patchwork/jsqueeze": "Assetic provides the integration with the JSqueeze JavaScript compressor"
+    },
+    "autoload": {
+        "psr-0": { "Assetic": "src/" },
+        "files": [ "src/functions.php" ]
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

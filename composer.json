@@ -1,8 +1,12 @@
 {
-    "name": "apelaez-link/assetic",
+    "name": "smartcitylink/assetic",
     "description": "Asset Management for PHP",
-    "keywords": [ "assets", "compression", "minification" ],
-    "homepage": "https://github.com/apelaez-link/assetic",
+    "keywords": [
+        "assets",
+        "compression",
+        "minification"
+    ],
+    "homepage": "https://github.com/smartcitylink/assetic",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -47,8 +51,12 @@
         "patchwork/jsqueeze": "Assetic provides the integration with the JSqueeze JavaScript compressor"
     },
     "autoload": {
-        "psr-0": { "Assetic": "src/" },
-        "files": [ "src/functions.php" ]
+        "psr-0": {
+            "Assetic": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
     },
     "config": {
         "bin-dir": "bin"
